@@ -1,12 +1,14 @@
 # Pronóstico de Ventas con Machine Learning: Análisis y Predicción
 Proyecto de predicción de demanda de ítems utilizando LightGBM y análisis de series temporales. El objetivo es desarrollar un modelo de machine learning capaz de predecir las ventas del mes próximo (a partir del último dato histórico disponible) de productos en múltiples tiendas, optimizando la gestión de inventario y la planificación operativa.<br>
+
 **Valor al negocio**: La capacidad de predecir con precisión las ventas futuras es fundamental para optimizar la gestión de inventarios, mejorar la planificación operativa y maximizar la rentabilidad del negocio.<br>
 Se desarrolló un dashboard interactivo en Tableau para visualizar las predicciones realizadas por el modelo y algunas otras estadísticas generales para comparación.<br>
+
 **Enlace al dashboard**: [Dashboard - Tableau Public](https://public.tableau.com/views/DemandSalesForecasting/Dashboard?:showVizHome=no&:embed=yes&:toolbar=no&:tabs=no&:display_count=no) 
 
 # Estructura del Directorio
 * `notebook.ipynb`: Notebook de Jupyter con el código y desarrollo del proyecto.
-* `LGBM_Demand_Forecaster.pkl`: Modelo LightGBM entrenado en la Notebook.
+* `LGBM_Demand_Forecaster.pkl`: Modelo LightGBM entrenado en la Notebook (el entrenamiento del modelo puede ser reproducible en el código).
 * `requirements.txt`: Librerías requeridas para la ejecución de la Notebook.
 * `util/`: Directorio con scripts útiles personalizados para el proyecto.
 * `eda/`: Directorio con dashboard en formato PNG realizado en *Canva* para el análisis exploratorio (gráficos realizados con Python).
@@ -52,3 +54,4 @@ https://www.kaggle.com/competitions/demand-forecasting-kernels-only <br>
 *Store Item Demand Forecasting Challenge*
 
 Para poder acceder a los datos, es necesario tener una cuenta de usuario en la plataforma Kaggle, y luego aceptar los términos y condiciones de la competición. No es necesario que el usuario descargue manualmente los datos, este apartado se incluye dentro de la Notebook.
+
