@@ -8,8 +8,8 @@ Se desarrolló un dashboard interactivo en Tableau para visualizar las prediccio
 
 # Estructura del Directorio
 * `notebook.ipynb`: Notebook de Jupyter con el código y desarrollo del proyecto.
-* `LGBM_Demand_Forecaster.pkl`: Modelo LightGBM entrenado en la Notebook (el entrenamiento del modelo puede ser reproducible en el código).
 * `requirements.txt`: Librerías requeridas para la ejecución de la Notebook.
+* `model/`: Directorio con el modelo LightGBM entrenado en la Notebook (el entrenamiento del modelo puede ser reproducible en el código).
 * `util/`: Directorio con scripts útiles personalizados para el proyecto.
 
 # Requerimientos
