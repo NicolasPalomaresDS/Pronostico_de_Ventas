@@ -11,7 +11,6 @@ Se desarrolló un dashboard interactivo en Tableau para visualizar las prediccio
 * `LGBM_Demand_Forecaster.pkl`: Modelo LightGBM entrenado en la Notebook (el entrenamiento del modelo puede ser reproducible en el código).
 * `requirements.txt`: Librerías requeridas para la ejecución de la Notebook.
 * `util/`: Directorio con scripts útiles personalizados para el proyecto.
-* `eda/`: Directorio con dashboard en formato PNG realizado en *Canva* para el análisis exploratorio (gráficos realizados con Python).
 
 # Requerimientos
 El proyecto requiere Python 3.13.7 y los paquetes listados en `requirements.txt`. Para instalar las dependencias, es necesario ejecutar el siguiente comando:
